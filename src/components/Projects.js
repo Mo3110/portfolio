@@ -6,6 +6,7 @@ import projImg4 from "../assets/img/ecommerce.png";
 import projImg5 from "../assets/img/openai.png";
 import projImg6 from "../assets/img/food-ordering.png";
 import projImg7 from "../assets/img/threejsmain.png";
+import projImg8 from "../assets/img/responsive-landpage.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -35,6 +36,12 @@ export const Projects = () => {
       imgUrl: projImg7,
       link: "https://project-threejs-ai-omega.vercel.app/",
       linkDescription: "Visit 3D Tee Shop",
+    },
+    {
+      title: "Full Responsive LandPage",
+      imgUrl: projImg8,
+      link: "https://full-responsive-landpage.netlify.app/",
+      linkDescription: "Visit Responsive Landpage",
     },
   ], []);
 
