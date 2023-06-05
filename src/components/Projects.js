@@ -7,6 +7,7 @@ import projImg5 from "../assets/img/openai.png";
 import projImg6 from "../assets/img/food-ordering.png";
 import projImg7 from "../assets/img/threejsmain.png";
 import projImg8 from "../assets/img/responsive-landpage.png";
+import projImg9 from "../assets/img/twitter.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -41,6 +42,12 @@ export const Projects = () => {
       title: "Full Responsive LandPage",
       imgUrl: projImg8,
       link: "https://full-responsive-landpage.netlify.app/",
+      linkDescription: "Visit Responsive Landpage",
+    },
+    {
+      title: "Twitter Clone",
+      imgUrl: projImg9,
+      link: "https://twitter-clone-ten-silk.vercel.app/",
       linkDescription: "Visit Responsive Landpage",
     },
   ], []);
